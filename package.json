@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
+    "start": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies."
   },
   "dependencies": {
