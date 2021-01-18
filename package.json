@@ -2,6 +2,11 @@
   "name": "conversor",
   "version": "0.1.0",
   "private": true,
+  "root": "dist",
+  "clean_urls": true,
+  "routes": {
+    "/**": "index.html"
+  },
   "scripts": {
     "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
     "start": "vue-cli-service serve",
